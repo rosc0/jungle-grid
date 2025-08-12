@@ -1,9 +1,12 @@
-import DrumSequencer from '@/components/DrumSequencer';
+import DrumSequencer from '../components/DrumSequencer';
+import ErrorBoundary from '../components/ui/ErrorBoundary';
 
 export default function Home() {
   return (
     <main>
-      <DrumSequencer />
+      <ErrorBoundary>
+        <DrumSequencer />
+      </ErrorBoundary>
     </main>
   );
 }
