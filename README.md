@@ -1,4 +1,4 @@
-# Jungle Grid
+# EARLY WIP - Jungle Grid
 
 A modern drum sequencer built with Next.js, React, TypeScript, and Tone.js. Create beats with an intuitive step sequencer interface featuring multiple drum tracks, real-time playback, and MIDI export capabilities.
 
